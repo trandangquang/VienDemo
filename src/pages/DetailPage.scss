@@ -1,0 +1,44 @@
+:where(.css-dev-only-do-not-override-apn68).ant-radio-button-wrapper:hover {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+
+.ant-radio-group-solid
+  :where(
+    .css-dev-only-do-not-override-apn68
+  ).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #fff;
+  background: #ff9916;
+  border-color: #ffb016;
+}
+
+.ant-radio-group-solid
+  :where(
+    .css-dev-only-do-not-override-apn68
+  ).ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):hover {
+  color: #fff;
+  background: #f3a704;
+  border-color: #f3a704;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-btn {
+  height: 100px;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-btn-variant-solid {
+  color: #fff;
+  background: #1a7622;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-btn-variant-solid:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover {
+  background: #06a013;
+  color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-image {
+  width: 80%;
+}
