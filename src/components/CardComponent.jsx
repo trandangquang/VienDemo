@@ -4,11 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const CardComponent = () => {
   const navigate = useNavigate();
 
-  // const apiKey =
-  //   'patNgusgHThUIXq5w.c341b20ee3dcad6b2498d0e22f81171c76fa469dfacb702c06412f6482fb4b1a';
-  // const baseId = 'appQSYQh1ixXgNMBM';
-  // const tableName = 'tblJDaWbmwNfSdMYX';
-
   // async function fetchData() {
   //   const url = `https://airtable.com/${baseId}/${tableName}`;
 
